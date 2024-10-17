@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev --trace-deprecation --host",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/main.ts",
+    "start": "node dist/main.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
